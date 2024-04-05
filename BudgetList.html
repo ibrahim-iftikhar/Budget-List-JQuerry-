@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Budget List</title>
+    
+</head>
+<body>
+    <div class="main">
+        <p class="p">My Weekly Budget</p>
+        <div class="screen">
+            <div class="one">
+                <input type="number" name="" id="input1" class="input1">
+                <button class="btn" type="submit">Enter</button>
+            </div>
+            <h1>Add Your daily expences:</h1>
+            <label for="Name">Name:</label>
+            <br>
+            <input type="text" name="Name" id="Name" class="Name" placeholder="Grocery item" disabled >
+            <br>
+            <label for="Amount">Amount</label>
+             <br>
+            <input type="number" name="Amount" id="Amount" class="Amount" placeholder="Enter the Amount" disabled>
+            <br>
+            <button class="btn2">Add</button>
+            <div class="Total">Budget:<p class="p1">0</p> &nbsp; &nbsp; $</div>
+            <div class="left">Left: <p class="p2">0</p> &nbsp; &nbsp; $</div>
+          <div class="OUTPUT"></div>
+        
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
